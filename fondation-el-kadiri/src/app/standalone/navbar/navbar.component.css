@@ -1,0 +1,209 @@
+.mynavbar {
+  position: fixed; /* Fixed position */
+  top: 0; /* Fixed at the top of the page */
+  left: 0; /* Fixed at the left side */
+  display: flex;
+  z-index: 1000;
+  background-color: #fff; /* Set your desired background color */
+  padding: 10px; /* Adjust the padding as needed */
+  border-bottom: 1px solid #ccc; /* Optional: Add a border at the bottom */
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+/* Style the logo container */
+.logo_container {
+  display: flex;
+  align-items: center;
+}
+
+.logo_container img {
+  max-width: 200px;
+}
+
+.logo_container #small-logo {
+  display: none;
+}
+
+.logo_container #wide-log {
+  display: none;
+}
+
+/* Style the main menu */
+#main_menu {
+  list-style: none;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  display: flex;
+  font-size: 14px;
+}
+
+#main_menu li {
+  margin-right: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+#main_menu a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px;
+  display: block;
+  /* transition: color 0.3s ease-in-out; */
+}
+
+#main_menu a:hover {
+  color: #625d5d; /* change the color on hover */
+}
+
+/* Style the sub-menu */
+.sub-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transform: translateY(-10px);
+  z-index: 10;
+  min-width: 200px;
+}
+
+#main_menu li:hover .sub-menu {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.sub-menu li {
+  margin: 8px 0;
+  list-style-type: none;
+}
+
+.sub-menu li:hover {
+  color: #625d5d;
+}
+
+.sub-menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sub-menu .sub-menu {
+  display: none;
+  left: 120px;
+  top: 0;
+  z-index: 10;
+}
+
+#main_menu > li:last-child {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main_menu > li:last-child a {
+  background-color: #3498db;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+#main_menu > li:last-child a {
+  color: #fff;
+}
+
+#main_menu > li:last-child a:hover {
+  background-color: #007bb5
+}
+
+#main_menu > li:last-child a:hover {
+color: #f0f0f0
+}
+
+/* Style the contact info */
+.top_contact_info {
+  display: flex;
+  align-items: center;
+}
+
+#top_contact_hours,
+#top_contact_number {
+  margin-right: 20px;
+}
+
+/* Style the mobile navigation icon */
+#mobile_nav_icon {
+  display: none; /* hide the mobile nav icon by default */
+}
+
+.contact-info {
+  color: #666;
+  font-size: 12px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+
+#main_menu {
+  margin-left: auto;
+  margin-left: 30px;
+}
+
+.active {
+  color: #625d5d !important;
+  cursor: default;
+}
+
+#main_menu > li:last-child a.active-btn {
+  color: #625d5d !important;
+  background-color: #fff !important;
+  border: 1px solid #3498db;
+  cursor: default;
+}
+
+@media only screen and (max-width: 1000px) {
+  /* Change font and logo width for smaller screens */
+  #main_menu {
+    font-size: 10px; /* Adjust the font size as needed */
+    margin-left: 0;
+  }
+
+  .logo_container img {
+    max-width: 140px; /* Adjust the max-width of the logo */
+  }
+
+  .sub-menu .sub-menu {
+    left: 80px;
+  }
+
+  .logo_container {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo_container #wide-logo {
+    display: none;
+  }
+
+  .logo_container #small-logo {
+    display: block;
+  }
+
+  .logo_container #small-logo img{
+    width: 30px;
+  }
+
+  .sub-menu {
+    min-width: 180px;
+  }
+
+  .contact-info {
+    font-size: 10px;
+    flex-direction: column;
+  }
+
+}

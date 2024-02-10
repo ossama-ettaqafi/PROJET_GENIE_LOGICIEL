@@ -1,0 +1,40 @@
+<div class="mynavbar">
+  <div class="logo_container">
+    <a id="wide-logo" routerLink="accueil">
+      <img src="assets/upload/logo%402x.png" alt="" />
+    </a>
+    <a id="small-logo" routerLink="accueil">
+      <img src="assets/upload/favicon.png" alt="" />
+    </a>
+  </div>
+
+  <ul id="main_menu" class="nav">
+    <li *ngFor="let item of menuItems; let last = last">
+      <a (mouseenter)="onMenuItemHover(item, true)" (mouseleave)="onMenuItemHover(item, false)" [routerLink]="item.link" routerLinkActive="active" [class.active-btn]="last && isActive(item.link!)">
+        {{ item.label }}
+      </a>
+
+      <ul class="sub-menu" *ngIf="item.children">
+        <li *ngFor="let subItem of item.children" class="menu-item">
+          <a (mouseenter)="onMenuItemHover(subItem, true)" (mouseleave)="onMenuItemHover(subItem, false)" [routerLink]="subItem.link" routerLinkActive="active">
+            {{ subItem.label }}
+
+            <ul class="sub-menu" *ngIf="subItem.children && isMenuActive(subItem)">
+              <li *ngFor="let subItemCh of subItem.children" class="menu-item">
+                <a [routerLink]="subItemCh.link" routerLinkActive="active">
+                  {{ subItemCh.label }}
+                </a>
+              </li>
+            </ul>
+          </a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+
+  <div class="contact-info" *ngIf="data && data.length > 0">
+    <div><i class="fas fa-clock"></i> {{ data[0].time }}</div>
+    <div><i class="fas fa-phone"></i> {{ data[0].phone }}</div>
+  </div>
+
+</div>

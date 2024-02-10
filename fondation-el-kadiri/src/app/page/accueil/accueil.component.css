@@ -1,0 +1,198 @@
+.main-container {
+  padding-top: 80px;
+}
+
+.mycontainer {
+  margin: 0;
+}
+
+.slide {
+  position: relative;
+}
+
+.slide-text {
+  position: absolute;
+  font-family: "Montserrat";
+  top: 20px;
+  left: 15%;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  font-size: 28px;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.text {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.mycontainer carousel {
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.mycontainer slide {
+  flex: 0 0 100%;
+}
+
+.mycontainer img {
+  display: block;
+  width: 100vw;
+  height: 500px;
+  object-fit: cover;
+  transition: all 0.5s ease;
+}
+
+.mycontainer img:hover {
+  transform: scale(1.05);
+}
+
+.title {
+  font-size: 38px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  position: relative;
+  color: #333;
+}
+
+.title::after {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 50%;
+  background-color: #666;
+  position: absolute;
+  bottom: -20px;
+  left: 25%;
+}
+
+.parts {
+  display: flex;
+  flex-direction: row;
+  padding: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  gap: 100px;
+}
+
+.part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.parts .part h5 {
+  text-align: center;
+  color: #666;
+}
+
+.parts .part p {
+  text-align: justify;
+  color: #333;
+  font-size: 14px;
+}
+
+.img-container {
+  display: flex;
+  max-width: 300px;
+  height: 200px;
+  margin-bottom: 20px;
+}
+
+.part img {
+  display: block;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+/* Add this to your existing CSS or style section */
+.content-container-1,
+.content-container-2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 800px; /* Adjust the maximum width as needed */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+.content-container-1 {
+  max-width: 100%;
+  padding-top: 40px;
+  flex-direction: column;
+}
+
+.text-container {
+  flex: 1;
+  padding: 20px;
+  width: 60;
+  box-sizing: border-box;
+}
+
+.video-container {
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* Optional: Add additional styles to make it visually appealing */
+.text-container h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.text-container p {
+  color: #666;
+  font-size: 14px;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .slide-text,
+  .title {
+    font-size: 18px;
+  }
+
+  .parts .part h5 {
+    font-size: 14px;
+  }
+
+  .text,
+  .parts .part p {
+    font-size: 12px;
+    text-align: justify;
+  }
+
+  .parts {
+    padding: 0;
+    padding: 20px;
+    padding-top: 50px;
+    gap: 40px;
+  }
+
+  .text-container h1,
+  .min-title {
+    font-size: 14px;
+  }
+
+  .text-container p {
+    font-size: 12px;
+  }
+
+  .main-container {
+    padding-top: 50px;
+  }
+
+  .mycontainer img {
+    height: 300px;
+  }
+}

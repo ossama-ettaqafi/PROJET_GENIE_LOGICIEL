@@ -1,0 +1,53 @@
+<div class="wrapper">
+  <div class="main-content">
+    <div class="primary-content">
+      <h2 class="widget-title">Support Us</h2>
+      <div class="content-description">
+        En faisant un don à la Fondation, vous nous fournissez durable
+        et un soutien efficace, nous permettant d'agir tous les jours.
+      </div>
+      <div class="page-header-sep left"></div>
+
+      <form #contactForm="ngForm" (ngSubmit)="onSubmit(contactForm)">
+        <div class="form-element">
+          <input id="name" type="text" name="name" size="40" class="input" ngModel required placeholder="Nom*" />
+        </div>
+        <div class="form-element">
+          <input id="email" type="email" name="email" size="40" class="input" ngModel required placeholder="Email*" />
+        </div>
+        <div class="form-element">
+          <textarea id="message" name="message" cols="40" rows="10" class="input" ngModel required placeholder="Message*"></textarea>
+        </div>
+        <div class="submit">
+          <button type="submit" class="submit-button" [disabled]="!contactForm.valid">
+            <span>Envoyer</span>
+          </button>
+        </div>
+      </form>
+      <div *ngIf="message" class="message" [ngClass]="{'success': message.includes('successfully'), 'error': !message.includes('successfully')}">
+        {{ message }}
+      </div>
+    </div>
+
+    <div class="secondary-content">
+      <div class="sidebar">
+        <ul class="widget-list">
+          <li>
+            <h2 class="widget-title">Address</h2>
+            <p>
+              {{data.address}}
+            </p>
+          </li>
+          <li>
+            <h2 class="widget-title">Phone</h2>
+            <p>{{data.phone}}</p>
+          </li>
+          <li>
+            <h2 class="widget-title">Email</h2>
+            <p>{{data.email}}</p>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

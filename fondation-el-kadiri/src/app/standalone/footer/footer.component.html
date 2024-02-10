@@ -1,0 +1,35 @@
+<div class="main-container">
+
+  <div class="footer-bar">
+    <div class="contact-widget">
+      <li *ngIf="data && data.length > 0">
+        <h2>Contact</h2>
+        <p>
+          {{data[0].address}} <br>
+          {{data[0].phone}} <br>
+          {{data[0].email}}
+        </p>
+      </li>
+      <li>
+        <h2>Recherche & Documentation</h2>
+        <ul>
+          <li><a routerLink="us/a-propos-de-la-fondation">À propos</a></li>
+          <li><a routerLink="evenements">Évènements</a></li>
+          <li><a routerLink="publications">Publications</a></li>
+          <li><a routerLink="presse">Presse</a></li>
+        </ul>
+      </li>
+    </div>
+
+    <div class="footer-bar-wrapper">
+      <div class="social-wrapper">
+        <ul>
+          <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+        </ul>
+      </div>
+      <div id="copyright">© Copyright 2024</div>
+    </div>
+  </div>
+</div>

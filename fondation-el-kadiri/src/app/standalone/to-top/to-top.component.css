@@ -1,0 +1,22 @@
+/* Styles for the top button */
+#topBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgba(52, 152, 219, 0.5);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  z-index: 999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 14px;
+}
+
+#topBtn:hover {
+  background-color: rgba(0, 123, 181, 0.5);
+}
