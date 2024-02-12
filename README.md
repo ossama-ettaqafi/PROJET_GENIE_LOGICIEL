@@ -13,17 +13,17 @@
 4. [Contraintes Techniques](#techniques)
 5. [Exigences Non-Fonctionnelles](#non-fonctionnelles)
 
-### Introduction <a href="introduction"></a>
+### Introduction <a name="introduction"></a>
 Le projet consiste à reprendre et finaliser le développement d'une plateforme web déjà existante pour la Fondation Abdelouahed El Kadiri. Cette plateforme, bien que livrée, présente plusieurs lacunes et bugs qui nécessitent une révision approfondie. L'objectif principal est d'appliquer nos connaissances en génie logiciel pour rectifier ces problèmes et livrer un produit final répondant aux attentes du client.
 
-### Objectifs <a href="objectifs"></a>
+### Objectifs <a name="objectifs"></a>
 Les objectifs principaux de ce projet sont les suivants :
 - Finaliser le développement de la plateforme web pour la Fondation Abdelouahed El Kadiri.
 - Corriger les bugs et les lacunes identifiés dans la version précédente de la plateforme.
 - Améliorer les fonctionnalités, le design et les performances de la plateforme pour offrir une meilleure expérience utilisateur.
 - Livrer un produit final conforme aux attentes du client et répondant aux besoins des utilisateurs.
 
-### Exigences Fonctionnelles <a href="fonctionnelles"></a>
+### Exigences Fonctionnelles <a name="fonctionnelles"></a>
 Les principales fonctionnalités de la plateforme incluent :
 - Système de navigation clair et intuitif pour faciliter l'accès aux informations recherchées.
 - Design attrayant et professionnel reflétant l'identité visuelle de la Fondation Abdelouahed El Kadiri.
@@ -34,14 +34,14 @@ Les principales fonctionnalités de la plateforme incluent :
 - Section actualités et événements pour tenir les visiteurs informés des dernières activités et initiatives de la fondation.
 - Formulaire de contact et de demande d'information pour faciliter la communication avec la fondation.
 
-### Contraintes Techniques <a href="techniques"></a>
+### Contraintes Techniques <a name="techniques"></a>
 Les contraintes techniques pour le développement de la plateforme sont les suivantes :
 - Utilisation des langages de programmation HTML, CSS, JavaScript, Angular et Bootstrap pour le développement front-end.
 - Utilisation du framework Express pour le développement back-end afin de gérer les requêtes HTTP et d'envoyer des emails à l'adresse électronique de la fondation.
 - Hébergement sur AWS (Amazon Web Services) avec une configuration optimisée pour garantir disponibilité et performance.
 - Intégration possible avec des systèmes tiers tels que des services de paiement en ligne et des outils d'analyse pour le suivi des performances du site.
 
-### Exigences Non-Fonctionnelles <a href="non-fonctionnelles"></a>
+### Exigences Non-Fonctionnelles <a name="non-fonctionnelles"></a>
 Les exigences non-fonctionnelles pour la plateforme sont les suivantes :
 - Convivialité : Offrir une expérience utilisateur conviviale avec une interface intuitive et facile à utiliser.
 - Performance : Temps de chargement des pages inférieur à 3 secondes pour garantir une expérience fluide.
