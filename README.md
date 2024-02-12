@@ -38,8 +38,8 @@ Les principales fonctionnalités de la plateforme incluent :
 Les contraintes techniques pour le développement de la plateforme sont les suivantes :
 - Utilisation des langages de programmation HTML, CSS, JavaScript, Angular et Bootstrap pour le développement front-end.
 - Utilisation du framework Express pour le développement back-end afin de gérer les requêtes HTTP et d'envoyer des emails à l'adresse électronique de la fondation.
-- Hébergement sur AWS (Amazon Web Services) avec une configuration optimisée pour garantir disponibilité et performance.
-- Intégration possible avec des systèmes tiers tels que des services de paiement en ligne et des outils d'analyse pour le suivi des performances du site.
+- Hébergement sur AWS (Amazon Web Services) avec une configuration optimisée pour garantir disponibilité et performance. (Facultatif)
+- Intégration possible avec des systèmes tiers tels que des services de paiement en ligne et des outils d'analyse pour le suivi des performances du site. (Facultatif)
 
 ### Exigences Non-Fonctionnelles <a name="non-fonctionnelles"></a>
 Les exigences non-fonctionnelles pour la plateforme sont les suivantes :
