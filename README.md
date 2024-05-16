@@ -1,4 +1,4 @@
-# Plateforme de la Fondation Abdelouahed El Kadiri
+# Cahier des charges de la plateforme de la Fondation Abdelouahed El Kadiri
 <div align="center">
  <h3>Réutilisation et finalisation d'un site web incomplet</h3>
  <img src="https://i.ibb.co/khjsXb6/logo-2x.png" alt="Fondation Abdelouahed El Kadiri" border="0" height="100px">
