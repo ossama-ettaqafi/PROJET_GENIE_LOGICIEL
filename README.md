@@ -1,53 +1,59 @@
 # Cahier des charges de la plateforme de la Fondation Abdelouahed El Kadiri
+
 <div align="center">
  <h3>Réutilisation et finalisation d'un site web incomplet</h3>
  <img src="https://i.ibb.co/khjsXb6/logo-2x.png" alt="Fondation Abdelouahed El Kadiri" border="0" height="100px">
-
- <p> Notre projet en génie logiciel consiste à réutiliser une plateforme déjà développée et livrée, mais qui ne satisfait pas les besoins du client. La plateforme présente plusieurs bugs et échecs. Notre tâche est donc de la réutiliser et de la finaliser, en appliquant toutes nos connaissances en génie logiciel, afin de livrer un produit parfait. Nous suivrons des étapes bien régulées pour atteindre cet objectif. </p>
 </div>
 
-### Table des matières
+Notre projet en génie logiciel consiste à réutiliser une plateforme déjà développée et livrée, mais qui ne satisfait pas les besoins du client. La plateforme présente plusieurs bugs et échecs. Notre tâche est donc de la réutiliser et de la finaliser, en appliquant toutes nos connaissances en génie logiciel, afin de livrer un produit parfait. Nous suivrons des étapes bien régulées pour atteindre cet objectif.
+
+## Table des matières
 1. [Introduction](#introduction)
 2. [Objectifs](#objectifs)
 3. [Exigences Fonctionnelles](#fonctionnelles)
 4. [Contraintes Techniques](#techniques)
 5. [Exigences Non-Fonctionnelles](#non-fonctionnelles)
 
-### Introduction <a name="introduction"></a>
-Le projet consiste à reprendre et finaliser le développement d'une plateforme web déjà existante pour la Fondation Abdelouahed El Kadiri. Cette plateforme, bien que livrée, présente plusieurs lacunes et bugs qui nécessitent une révision approfondie. L'objectif principal est d'appliquer nos connaissances en génie logiciel pour rectifier ces problèmes et livrer un produit final répondant aux attentes du client.
+## Introduction <a name="introduction"></a>
+La Fondation Abdelouahed El Kadiri souhaite reprendre et finaliser le développement de sa plateforme web existante. Cette plateforme, bien qu'initialement livrée, présente des lacunes et des bugs qui affectent son fonctionnement. L'objectif de ce projet est de rectifier ces problèmes et d'améliorer la plateforme pour répondre aux besoins de la Fondation et de ses utilisateurs.
 
-### Objectifs <a name="objectifs"></a>
-Les objectifs principaux de ce projet sont les suivants :
+## Objectifs <a name="objectifs"></a>
+Les principaux objectifs de ce projet sont les suivants :
 - Finaliser le développement de la plateforme web pour la Fondation Abdelouahed El Kadiri.
 - Corriger les bugs et les lacunes identifiés dans la version précédente de la plateforme.
 - Améliorer les fonctionnalités, le design et les performances de la plateforme pour offrir une meilleure expérience utilisateur.
 - Livrer un produit final conforme aux attentes du client et répondant aux besoins des utilisateurs.
 
-### Exigences Fonctionnelles <a name="fonctionnelles"></a>
-Les principales fonctionnalités de la plateforme incluent :
-- Système de navigation clair et intuitif pour faciliter l'accès aux informations recherchées.
-- Design attrayant et professionnel reflétant l'identité visuelle de la Fondation Abdelouahed El Kadiri.
-- Optimisation de la vitesse de chargement des pages pour garantir une expérience fluide et rapide.
-- Accessibilité renforcée pour permettre à tous les utilisateurs, y compris ceux avec des besoins spécifiques, d'accéder au contenu du site web.
-- Présentation des missions, projets et actions de la fondation pour informer les visiteurs sur son travail.
-- Intégration de témoignages et de réussites pour illustrer l'impact des actions de la fondation.
-- Section actualités et événements pour tenir les visiteurs informés des dernières activités et initiatives de la fondation.
-- Formulaire de contact et de demande d'information pour faciliter la communication avec la fondation.
+## Exigences Fonctionnelles <a name="fonctionnelles"></a>
+### Système de Navigation
+- La plateforme doit disposer d'un système de navigation clair et intuitif pour permettre aux utilisateurs de trouver facilement les informations recherchées.
+- Les différentes sections et fonctionnalités de la plateforme doivent être accessibles via un menu de navigation bien structuré.
 
-### Contraintes Techniques <a name="techniques"></a>
-Les contraintes techniques pour le développement de la plateforme sont les suivantes :
-- Utilisation des langages de programmation HTML, CSS, JavaScript, Angular et Bootstrap pour le développement front-end.
-- Utilisation du framework Express pour le développement back-end afin de gérer les requêtes HTTP et d'envoyer des emails à l'adresse électronique de la fondation.
-- Hébergement sur AWS (Amazon Web Services) avec une configuration optimisée pour garantir disponibilité et performance. (Facultatif)
-- Intégration possible avec des systèmes tiers tels que des services de paiement en ligne et des outils d'analyse pour le suivi des performances du site. (Facultatif)
+### Design et Identité Visuelle
+- Le design de la plateforme doit être attrayant et professionnel, reflétant l'identité visuelle de la Fondation Abdelouahed El Kadiri.
+- Une attention particulière doit être portée à l'utilisation des couleurs, des polices et des éléments graphiques pour assurer une expérience visuelle cohérente et engageante.
 
-### Exigences Non-Fonctionnelles <a name="non-fonctionnelles"></a>
-Les exigences non-fonctionnelles pour la plateforme sont les suivantes :
-- Convivialité : Offrir une expérience utilisateur conviviale avec une interface intuitive et facile à utiliser.
-- Performance : Temps de chargement des pages inférieur à 3 secondes pour garantir une expérience fluide.
-- Sécurité : Protéger le site contre les attaques informatiques et sécuriser les données des utilisateurs.
-- Disponibilité : Assurer une disponibilité 24/7 avec un temps d'indisponibilité minimal.
-- Accessibilité : Rendre le site accessible à tous les utilisateurs, y compris ceux en situation de handicap.
-- Scalabilité : Concevoir le site pour être évolutif et capable de gérer un volume croissant de trafic.
-- Compatibilité : Assurer la compatibilité avec les principaux navigateurs web et appareils.
-- Documentation : Fournir une documentation détaillée pour faciliter la gestion et la maintenance du site web.
+### Performance
+- La vitesse de chargement des pages doit être optimisée pour garantir une expérience fluide et rapide aux utilisateurs.
+- Toutes les fonctionnalités de la plateforme doivent être réactives et ne pas entraîner de délais significatifs lors de leur utilisation.
+
+### Accessibilité
+- La plateforme doit être accessible à tous les utilisateurs, y compris ceux ayant des besoins spécifiques tels que les personnes handicapées.
+- Des efforts doivent être faits pour assurer la conformité aux normes d'accessibilité web (WCAG) afin de garantir une expérience inclusive pour tous les utilisateurs.
+
+### Contenu et Fonctionnalités
+- La plateforme doit présenter de manière claire et concise les missions, projets et actions de la Fondation Abdelouahed El Kadiri.
+- Des fonctionnalités telles que des témoignages, des réussites et des actualités doivent être intégrées pour informer et engager les visiteurs de la plateforme.
+- Un formulaire de contact et de demande d'information doit être disponible pour faciliter la communication avec la Fondation.
+
+## Contraintes Techniques <a name="techniques"></a>
+- Le développement front-end de la plateforme doit être réalisé en utilisant les langages de programmation HTML, CSS et JavaScript, avec l'utilisation éventuelle de frameworks comme Angular et Bootstrap pour améliorer l'expérience utilisateur.
+- Le développement back-end doit être effectué à l'aide du framework Express pour gérer les requêtes HTTP et les interactions avec la base de données.
+- Le déploiement de la plateforme peut être réalisé sur Vercel pour garantir disponibilité, performance et sécurité.
+
+## Exigences Non-Fonctionnelles <a name="non-fonctionnelles"></a>
+- La plateforme doit offrir une expérience utilisateur conviviale avec une interface intuitive et facile à utiliser.
+- Les données des utilisateurs doivent être sécurisées contre les attaques informatiques et les violations de la vie privée.
+- La plateforme doit être disponible 24/7 avec un temps d'indisponibilité minimal pour assurer une accessibilité constante aux utilisateurs.
+- Des tests approfondis doivent être effectués pour garantir la compatibilité de la plateforme avec les principaux navigateurs web et appareils.
+- Une documentation détaillée doit être fournie pour faciliter la gestion et la maintenance de la plateforme à l'avenir.
