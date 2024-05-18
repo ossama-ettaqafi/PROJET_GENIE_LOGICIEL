@@ -8,11 +8,11 @@
 Notre projet en génie logiciel consiste à réutiliser une plateforme déjà développée et livrée, mais qui ne satisfait pas les besoins du client. La plateforme présente plusieurs bugs et échecs. Notre tâche est donc de la réutiliser et de la finaliser, en appliquant toutes nos connaissances en génie logiciel, afin de livrer un produit parfait. Nous suivrons des étapes bien régulées pour atteindre cet objectif.
 
 ## Table des matières
-1. [Introduction](#introduction)
-2. [Objectifs](#objectifs)
-3. [Exigences Fonctionnelles](#fonctionnelles)
-4. [Contraintes Techniques](#techniques)
-5. [Exigences Non-Fonctionnelles](#non-fonctionnelles)
+- [Introduction](#introduction)
+- [Objectifs](#objectifs)
+- [Exigences Fonctionnelles](#fonctionnelles)
+- [Contraintes Techniques](#techniques)
+- [Exigences Non-Fonctionnelles](#non-fonctionnelles)
 
 ## Introduction <a name="introduction"></a>
 La Fondation Abdelouahed El Kadiri souhaite reprendre et finaliser le développement de sa plateforme web existante. Cette plateforme, bien qu'initialement livrée, présente des lacunes et des bugs qui affectent son fonctionnement. L'objectif de ce projet est de rectifier ces problèmes et d'améliorer la plateforme pour répondre aux besoins de la Fondation et de ses utilisateurs.
