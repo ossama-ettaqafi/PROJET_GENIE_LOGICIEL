@@ -1,59 +1,70 @@
-# Cahier des charges de la plateforme de la Fondation Abdelouahed El Kadiri
+# 🌐 Plateforme Web de la Fondation Abdelouahed El Kadiri - Cahier des charges
 
 <div align="center">
- <h3>Réutilisation et finalisation d'un site web incomplet</h3>
- <img src="https://i.ibb.co/khjsXb6/logo-2x.png" alt="Fondation Abdelouahed El Kadiri" border="0" height="100px">
+  <img src="https://i.ibb.co/khjsXb6/logo-2x.png" alt="Logo Fondation" height="100px"/>
+  <br>
+  <strong>Réutilisation, correction et finalisation d’un site web incomplet</strong>
 </div>
 
-Notre projet en génie logiciel consiste à réutiliser une plateforme déjà développée et livrée, mais qui ne satisfait pas les besoins du client. La plateforme présente plusieurs bugs et échecs. Notre tâche est donc de la réutiliser et de la finaliser, en appliquant toutes nos connaissances en génie logiciel, afin de livrer un produit parfait. Nous suivrons des étapes bien régulées pour atteindre cet objectif.
+## 📘 Contexte du projet
 
-## Table des matières
-- [Introduction](#introduction)
-- [Objectifs](#objectifs)
-- [Exigences Fonctionnelles](#fonctionnelles)
-- [Contraintes Techniques](#techniques)
-- [Exigences Non-Fonctionnelles](#non-fonctionnelles)
+Ce projet s’inscrit dans le cadre d’un exercice de mise en œuvre des pratiques de **génie logiciel**. Il s’agit de reprendre une plateforme web **déjà existante mais incomplète**, présentant divers **bugs, erreurs de conception et lacunes fonctionnelles**.  
+Notre mission : **corriger, finaliser et optimiser** cette plateforme pour la rendre totalement opérationnelle et alignée avec les besoins réels de la Fondation.
 
-## Introduction <a name="introduction"></a>
-La Fondation Abdelouahed El Kadiri souhaite reprendre et finaliser le développement de sa plateforme web existante. Cette plateforme, bien qu'initialement livrée, présente des lacunes et des bugs qui affectent son fonctionnement. L'objectif de ce projet est de rectifier ces problèmes et d'améliorer la plateforme pour répondre aux besoins de la Fondation et de ses utilisateurs.
+## 🧭 Objectifs
 
-## Objectifs <a name="objectifs"></a>
-Les principaux objectifs de ce projet sont les suivants :
-- Finaliser le développement de la plateforme web pour la Fondation Abdelouahed El Kadiri.
-- Corriger les bugs et les lacunes identifiés dans la version précédente de la plateforme.
-- Améliorer les fonctionnalités, le design et les performances de la plateforme pour offrir une meilleure expérience utilisateur.
-- Livrer un produit final conforme aux attentes du client et répondant aux besoins des utilisateurs.
+- 🔧 **Finaliser** le développement de la plateforme web.
+- 🐞 **Corriger les bugs** de la version actuelle.
+- 🎨 **Améliorer l’ergonomie, le design** et les performances.
+- ✅ Livrer un **produit stable, maintenable et conforme** aux attentes du client.
+- 🔒 Garantir **la sécurité** et **l’accessibilité** du site.
 
-## Exigences Fonctionnelles <a name="fonctionnelles"></a>
-### Système de Navigation
-- La plateforme doit disposer d'un système de navigation clair et intuitif pour permettre aux utilisateurs de trouver facilement les informations recherchées.
-- Les différentes sections et fonctionnalités de la plateforme doivent être accessibles via un menu de navigation bien structuré.
+## 🚀 Exigences fonctionnelles
 
-### Design et Identité Visuelle
-- Le design de la plateforme doit être attrayant et professionnel, reflétant l'identité visuelle de la Fondation Abdelouahed El Kadiri.
-- Une attention particulière doit être portée à l'utilisation des couleurs, des polices et des éléments graphiques pour assurer une expérience visuelle cohérente et engageante.
+### 🧭 Système de navigation
+- Interface fluide avec **menu clair, intuitif et responsive**.
+- Hiérarchisation des contenus par **rubriques claires** (Fondation, Projets, Actualités, Témoignages, Contact…).
 
-### Performance
-- La vitesse de chargement des pages doit être optimisée pour garantir une expérience fluide et rapide aux utilisateurs.
-- Toutes les fonctionnalités de la plateforme doivent être réactives et ne pas entraîner de délais significatifs lors de leur utilisation.
+### 🎨 Identité visuelle
+- Respect de **la charte graphique** de la Fondation.
+- Choix cohérents de **couleurs, typographies et icônes**.
+- Design moderne et professionnel, avec **adaptation mobile**.
 
-### Accessibilité
-- La plateforme doit être accessible à tous les utilisateurs, y compris ceux ayant des besoins spécifiques tels que les personnes handicapées.
-- Des efforts doivent être faits pour assurer la conformité aux normes d'accessibilité web (WCAG) afin de garantir une expérience inclusive pour tous les utilisateurs.
+### ⚙️ Performance
+- Chargement rapide des pages (optimisation images, scripts, requêtes).
+- Temps de réponse minimal pour toutes les interactions (click, navigation...).
 
-### Contenu et Fonctionnalités
-- La plateforme doit présenter de manière claire et concise les missions, projets et actions de la Fondation Abdelouahed El Kadiri.
-- Des fonctionnalités telles que des témoignages, des réussites et des actualités doivent être intégrées pour informer et engager les visiteurs de la plateforme.
-- Un formulaire de contact et de demande d'information doit être disponible pour faciliter la communication avec la Fondation.
+### ♿ Accessibilité
+- Respect des normes **WCAG** pour l’inclusivité numérique.
+- Contrastes adaptés, navigation clavier, alternatives textuelles aux images.
 
-## Contraintes Techniques <a name="techniques"></a>
-- Le développement front-end de la plateforme doit être réalisé en utilisant les langages de programmation HTML, CSS et JavaScript, avec l'utilisation éventuelle de frameworks comme Angular et Bootstrap pour améliorer l'expérience utilisateur.
-- Le développement back-end doit être effectué à l'aide du framework Express pour gérer les requêtes HTTP et les interactions avec la base de données.
-- Le déploiement de la plateforme peut être réalisé sur Vercel pour garantir disponibilité, performance et sécurité.
+### 📑 Contenu et modules
+- Présentation claire des **valeurs, missions et projets**.
+- Ajout de **témoignages**, **actualités**, **galerie multimédia**.
+- **Formulaire de contact** fonctionnel avec envoi d’email sécurisé.
 
-## Exigences Non-Fonctionnelles <a name="non-fonctionnelles"></a>
-- La plateforme doit offrir une expérience utilisateur conviviale avec une interface intuitive et facile à utiliser.
-- Les données des utilisateurs doivent être sécurisées contre les attaques informatiques et les violations de la vie privée.
-- La plateforme doit être disponible 24/7 avec un temps d'indisponibilité minimal pour assurer une accessibilité constante aux utilisateurs.
-- Des tests approfondis doivent être effectués pour garantir la compatibilité de la plateforme avec les principaux navigateurs web et appareils.
-- Une documentation détaillée doit être fournie pour faciliter la gestion et la maintenance de la plateforme à l'avenir.
+## 💻 Contraintes techniques
+
+| **Aspect**       | **Technologie ou Outil Requis**                      |
+|------------------|------------------------------------------------------|
+| Frontend         | HTML · CSS · JavaScript · Bootstrap · Angular (si nécessaire) |
+| Backend          | Node.js avec **Express.js**                          |
+| Base de données  | JSON / MongoDB (selon besoins)                       |
+| Déploiement      | Plateforme cloud comme **Vercel**                    |
+| Versionning      | Git · GitHub                                         |
+
+## 🔐 Exigences non-fonctionnelles
+
+- ✅ **Ergonomie** : expérience utilisateur fluide, interface intuitive.
+- 🔒 **Sécurité** : protection contre injections, XSS, failles CSRF…
+- 📶 **Disponibilité** : fonctionnement stable 24/7 avec supervision minimale.
+- 🧪 **Compatibilité** : fonctionnement identique sur les navigateurs majeurs (Chrome, Firefox, Safari…).
+- 📄 **Documentation** : guide technique + guide d’administration utilisateur.
+
+## 📝 Méthodologie recommandée
+
+- 📋 Phase 1 : Analyse des bugs actuels + recueil des attentes du client.
+- 🔧 Phase 2 : Réusinage du code, amélioration structurelle (refactoring).
+- 🎨 Phase 3 : Refonte du design et amélioration UX.
+- 🧪 Phase 4 : Tests utilisateurs, QA technique et corrections.
+- 🚀 Phase 5 : Livraison finale + mise en ligne.
